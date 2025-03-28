@@ -23,6 +23,12 @@ c = add_numbers(a, b)
 print(f"Die Summe von a={a} und b={b} ist {c}")
 d = add_numbers(c, 5)
 
+def check_even_odd(number):
+    if number % 2 == 0:
+        return "even"
+    else:
+        return "odd"
+
 #tests
 
 e= power(b, a) # 20 ** 10
